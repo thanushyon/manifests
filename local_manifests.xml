@@ -22,7 +22,12 @@
 <!-- Remove the standard art -->
 <remove-project name="Euphoria-OS-Legacy/android_art" />
 <!-- Retrieve arter97 art -->
-<project path="bionic" name="arter97/android_art" groups="pdk" remote="github" revision="cm-12.1" />
+<project path="art" name="arter97/android_art" groups="pdk" remote="github" revision="cm-12.1" />
+
+<!-- Remove the standard bionic -->
+<remove-project name="Euphoria-OS-Legacy/android_bionic" />
+<!-- Retrieve arter97 bionic -->
+<project path="bionic" name="arter97/android_bionic" groups="pdk" remote="github" revision="cm-12.1" />
 
 <!-- Point to thanushyon android_build -->
 <remove-project name="Euphoria-OS-Legacy/android_build" />
