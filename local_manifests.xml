@@ -25,7 +25,7 @@
 <project path="bionic" name="arter97/android_bionic" groups="pdk" remote="github" revision="cm-12.1" />
 
 <!-- Point to thanushyon android_build -->
-<!-- <remove-project name="Euphoria-OS/android_build" /> -->
+<remove-project name="Euphoria-OS/android_build" />
 <project path="build" name="thanushyon/android_build" groups="pdk,tradefed" remote="github" revision="lollipop-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
