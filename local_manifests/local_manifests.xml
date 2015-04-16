@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<project name="Euphoria-OS-Legacy/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="lollipop-5.1"/>
+<project name="Euphoria-OS-Legacy/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lollipop-5.1" />
+<project name="Euphoria-OS-Legacy/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="lollipop-5.1" />
+<project name="Euphoria-OS-Legacy/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lollipop-12.1" />
+
+<project name="Euphoria-OS-Legacy/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="lollipop-12.1" />
+
+
+<project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1" />
+<project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
+<project name="CyanogenMod/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="github" revision="cm-11.0" />
+
+<!-- Remove the standard GCC toolchain from the project -->
+<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+<!-- Retrieve UBER toolchain to build the ROM-->
+<project name="UBERTC/GCC-UBER" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-UBER-4.9" remote="github" revision="uber-4.9" />
+
+<!-- Remove the standard bionic -->
+<remove-project name="bionic" />
+<!-- Retrieve arter97 bionic -->
+<project path="bionic" name="arter97/android_bionic" groups="pdk" remote="github" revision="cm-12.1" />
+
+
+</manifest>
