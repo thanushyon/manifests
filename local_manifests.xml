@@ -46,5 +46,6 @@
 <remove-project name="platform/packages/apps/Music" />
 <remove-project name="platform/packages/apps/Camera" />
 <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Camera2" />
+<remove-project name="platform/frameworks/opt/calendar" />
 
 </manifest>
