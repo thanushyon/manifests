@@ -3,7 +3,7 @@
 <manifest>
 
 <!-- Add bitbucket remote -->
-<remote name="bitbucket" fetch="https://bitbucket.com/" />
+<remote name="bitbucket" fetch="https://bitbucket.org/" />
 
 
 <project name="Euphoria-OS-Legacy/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="lollipop-5.1"/>
@@ -21,7 +21,7 @@
 <!-- Remove standard toolchain -->
 <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
 <!-- Retrieve UBER toolchain to build the ROM cortexa15 -->
-<project name="RobbieL811/uber-arm-eabi-4.9_cortex_a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-UBER-4.9" remote="github" />
+<project name="RobbieL811/uber-arm-eabi-4.9_cortex_a15" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-UBER-4.9" remote="bitbucket" />
 
 <!-- Remove the standard art -->
 <remove-project name="Euphoria-OS-Legacy/android_art" />
