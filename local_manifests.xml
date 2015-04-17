@@ -20,8 +20,10 @@
 
 <!-- Remove standard toolchain -->
 <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
 <!-- Retrieve UBER toolchain to build the ROM  -->
 <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-UBER-4.9" remote="bitbucket" revision="master" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-5.0" remote="bitbucket" revision="master" />
 
 <!-- Remove the standard art -->
 <remove-project name="Euphoria-OS-Legacy/android_art" />
