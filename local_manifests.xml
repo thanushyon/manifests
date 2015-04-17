@@ -2,6 +2,10 @@
 
 <manifest>
 
+<!-- Add bitbucket remote -->
+<remote name="bitbucket" fetch="https://bitbucket.com/" />
+
+
 <project name="Euphoria-OS-Legacy/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="lollipop-5.1"/>
 <project name="Euphoria-OS-Legacy/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lollipop-5.1" />
 <project name="Euphoria-OS-Legacy/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="lollipop-5.1" />
@@ -17,7 +21,7 @@
 <!-- Remove standard toolchain -->
 <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
 <!-- Retrieve UBER toolchain to build the ROM -->
-<project name="UBERTC/GCC-UBER" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-UBER-4.9" remote="github" revision="uber-4.9" />
+<project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-UBER-4.9" remote="github" />
 
 <!-- Remove the standard art -->
 <remove-project name="Euphoria-OS-Legacy/android_art" />
