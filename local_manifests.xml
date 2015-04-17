@@ -9,29 +9,8 @@
 
 <project name="Euphoria-OS-Legacy/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="lollipop-5.1" />
 
-
 <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1" />
 <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
 <project name="CyanogenMod/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="github" revision="cm-11.0" />
-
-<!-- Retrieve UBER toolchain to build the ROM-->
-<project name="UBERTC/GCC-UBER" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-UBER-4.9" remote="github" revision="uber-4.9" />
-
-<!-- Remove the standard art -->
-<remove-project name="Euphoria-OS-Legacy/android_art" />
-<!-- Retrieve arter97 art -->
-<project path="art" name="arter97/android_art" groups="pdk" remote="github" revision="cm-12.1" />
-
-<!-- Remove the standard bionic -->
-<remove-project name="Euphoria-OS-Legacy/android_bionic" />
-<!-- Retrieve arter97 bionic -->
-<project path="bionic" name="arter97/android_bionic" groups="pdk" remote="github" revision="cm-12.1" />
-
-<!-- Point to thanushyon android_build -->
-<remove-project name="Euphoria-OS-Legacy/android_build" />
-<project path="build" name="thanushyon/android_build" groups="pdk,tradefed" remote="github" revision="lollipop-5.1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-</project>
-
 
 </manifest>
