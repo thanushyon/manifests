@@ -20,7 +20,7 @@
 
 <!-- Retrieve UBER toolchain to build the ROM  -->
 <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
-<project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master" />
+<project name="RobbieL811/uber-arm-eabi-4.9_cortex_a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master" />
 
 <!-- Remove the standard art -->
 <remove-project name="Euphoria-OS-Legacy/android_art" />
