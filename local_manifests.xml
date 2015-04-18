@@ -17,7 +17,7 @@
 <project name="CyanogenMod/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="github" revision="cm-11.0" />
 
 <!-- Retrieve UBER toolchain/ArchiDroid to build the ROM  -->
-<remove-project name="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
 <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
 
 <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
