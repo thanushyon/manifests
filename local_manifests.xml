@@ -21,17 +21,17 @@
 <project name="RobbieL811/uber-arm-eabi-4.9_cortex_a15" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master" />
 
 <!-- Remove the standard art -->
-<remove-project name="Euphoria-OS-Legacy/android_art" />
+<remove-project name="CyanogenMod/android_art" />
 <!-- Retrieve arter97 art -->
 <project path="art" name="arter97/android_art" groups="pdk" remote="github" revision="cm-12.1" />
 
 <!-- Remove the standard bionic -->
-<remove-project name="Euphoria-OS-Legacy/android_bionic" />
+<remove-project name="CyanogenMod/android_bionic" />
 <!-- Retrieve arter97 bionic -->
 <project path="bionic" name="arter97/android_bionic" groups="pdk" remote="github" revision="cm-12.1" />
 
 <!-- Point to thanushyon android_build -->
-<remove-project name="Euphoria-OS-Legacy/android_build" />
+<remove-project name="CyanogenMod/android_build" />
 <project path="build" name="thanushyon/android_build" groups="pdk,tradefed" remote="github" revision="lollipop-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
