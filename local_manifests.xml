@@ -43,5 +43,9 @@
 <!-- Retrieve thanushyon vendor-os -->
 <project path="vendor/eos" name="thanushyon/android_vendor_eos" remote="github" revision="lollipop-5.1" />
 
+<!-- Remove Euphoria-OS-Legacy/android_device_oneplus_bacon -->
+<remove-project name="Euphoria-OS-Legacy/android_device_oneplus_bacon" />
+<!-- Retrieve thanushyon android_device_oneplus_bacon -->
+<project path="vendor/eos" name="thanushyon/android_device_oneplus_bacon" remote="github" revision="lollipop-5.1" />
 
 </manifest>
