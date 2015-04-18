@@ -44,11 +44,4 @@
 <project path="vendor/eos" name="thanushyon/android_vendor_eos" remote="github" revision="lollipop-5.1" />
 
 
-<!-- Remove unnecessary standard apps -->
-<remove-project name="Euphoria-OS/android_packages_apps_Browser" />
-<remove-project name="platform/packages/apps/Music" />
-<remove-project name="platform/packages/apps/Camera" />
-<remove-project name="Euphoria-OS-Legacy/android_packages_apps_Camera2" />
-<remove-project name="platform/frameworks/opt/calendar" />
-
 </manifest>
