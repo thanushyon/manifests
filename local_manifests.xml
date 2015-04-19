@@ -24,7 +24,7 @@
 <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a15_neon_vfpv4" />
 
 
-<!-- Point to thanushyon android_build -->
+<!-- Point to thanushyon repos -->
 <remove-project name="CyanogenMod/android_build" />
 <project path="build" name="thanushyon/android_build" groups="pdk,tradefed" remote="github" revision="lollipop-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -33,5 +33,10 @@
 <remove-project name="CyanogenMod/android_external_sqlite" />
 <project path="external/sqlite" name="jgcaaprom/android_external_sqlite" remote="github" revision="cm-12.1" />
 
+<remove-project name="CyanogenMod/android_packages_apps_Settings" />
+<project path="packages/apps/Settings" name="thanushyon/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
+
+<remove-project name="CyanogenMod/android_frameworks_base" />
+<project path="frameworks/base" name="thanushyon/android_frameworks_base" remote="github" revision="cm-12.1" />
 
 </manifest>
