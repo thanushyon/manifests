@@ -26,7 +26,7 @@
 
 <!-- Point to thanushyon repos -->
 <remove-project name="CyanogenMod/android_build" />
-<project path="build" name="thanushyon/android_build" groups="pdk,tradefed" remote="github" revision="lollipop-5.1" >
+<project path="build" name="thanushyon/android_build" groups="pdk,tradefed" remote="github" revision="cm-12.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 
