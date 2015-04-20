@@ -6,7 +6,7 @@
 <remote name="bitbucket" fetch="https://bitbucket.org" />
 
 
-<project name="CyanogenMod/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-12.1" />
+<project name="thanushyon/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-12.1" />
 <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
 <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-12.1" />
 <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-12.1" />
@@ -23,6 +23,8 @@
 <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
 <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a15_neon_vfpv4" />
 
+<remove-project name="CyanogenMod/android_external_sqlite" />
+<project path="external/sqlite" name="jgcaaprom/android_external_sqlite" remote="github" revision="cm-12.1" />
 
 <!-- Point to thanushyon repos -->
 <remove-project name="CyanogenMod/android_build" />
@@ -30,13 +32,13 @@
     <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 
-<remove-project name="CyanogenMod/android_external_sqlite" />
-<project path="external/sqlite" name="jgcaaprom/android_external_sqlite" remote="github" revision="cm-12.1" />
-
 <remove-project name="CyanogenMod/android_packages_apps_Settings" />
 <project path="packages/apps/Settings" name="thanushyon/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
 
 <remove-project name="CyanogenMod/android_frameworks_base" />
 <project path="frameworks/base" name="thanushyon/android_frameworks_base" remote="github" revision="cm-12.1" />
+
+<remove-project name="CyanogenMod/android_vendor_cm" />
+<project path="vendor/cm" name="thanushyon/android_vendor_cm" />
 
 </manifest>
