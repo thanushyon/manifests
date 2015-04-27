@@ -9,6 +9,16 @@
 
 ## Changelog
 
+
+### 27/04/2015
+
+- Switch to GCC 5.1 for ROM build
+
+### 26/04/2015
+
+- ART optimization flags set to everything
+
+
 ### 20/04/2015
 - Added superuser notification toggle to status bar
 
