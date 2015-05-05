@@ -18,7 +18,7 @@
 
 <!-- Retrieve UBER toolchain/ArchiDroid to build the ROM  -->
 <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-<project name="UBERTC/arm-linux-androideabi-5.1" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
+<project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
 
 <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
 <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="architoolchain-4.9-arm-linux-gnueabihf-cortex_a15_neon_vfpv4" />
