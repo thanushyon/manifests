@@ -26,11 +26,11 @@
 <remove-project name="CyanogenMod/android_external_sqlite" />
 <project path="external/sqlite" name="jgcaaprom/android_external_sqlite" remote="github" revision="cm-12.1" />
 
-<remove-project name="CyanogenMod/android_build" />
-<project path="build" name="ArchiDroid/android_build" remote="github" revision="cm-12.1-optimized" />
-
 <!-- Point to thanushyon repos -->
-
+<remove-project name="CyanogenMod/android_build" />
+<project path="build" name="thanushyon/android_build" groups="pdk,tradefed" remote="github" revision="cm-12.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+</project>
 
 <remove-project name="CyanogenMod/android_packages_apps_Settings" />
 <project path="packages/apps/Settings" name="thanushyon/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
