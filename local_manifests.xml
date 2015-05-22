@@ -2,13 +2,13 @@
 
 <manifest>
 
+<!-- Add bitbucket remote -->
+<remote name="bitbucket" fetch="https://bitbucket.org" />
 
 
 <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1" />
 <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
 
-<!-- Add bitbucket remote -->
-<remote name="bitbucket" fetch="https://bitbucket.org" />
 
 
 <!-- Retrieve UBER toolchain/ArchiDroid to build the ROM  -->
