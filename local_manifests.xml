@@ -6,7 +6,6 @@
 
 <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1" />
 <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
-<project name="CyanogenMod/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="github" revision="cm-11.0" />
 
 <!-- Add bitbucket remote -->
 <remote name="bitbucket" fetch="https://bitbucket.org" />
